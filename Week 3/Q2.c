@@ -11,6 +11,21 @@ i
 Output Format:
 Strings depending on problem statement 
 
+Testcase
+
+Input:
+2
+
+Output:
+hello 
+bye 
+bye 
+bye 
+bye 
+bye 
+hello 
+hello
+
 */
 
 //Solution:

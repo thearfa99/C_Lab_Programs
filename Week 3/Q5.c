@@ -12,6 +12,15 @@ y
 Output Format:
 Quadrant 
 
+Testcase
+
+Input:
+1
+2
+
+Output:
+First Quadrant
+ 
 */
 
 //Solution:

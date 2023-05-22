@@ -13,6 +13,15 @@ Output Format:
 The first line of output gives the value of a 
 The second line of output gives the value of b
 
+Testcase
+
+Input:
+0
+
+Output:
+1
+1
+
 */
 
 //Solution:

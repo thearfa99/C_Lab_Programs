@@ -10,6 +10,15 @@ x,y
 Output Format:
 y
 
+Testcase
+
+Input:
+1
+2
+
+Output:
+4
+
 */
 
 //Solution:

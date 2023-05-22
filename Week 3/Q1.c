@@ -11,6 +11,19 @@ N
 Output Format:
 String depending on the problem statement 
 
+Testcase
+
+Input:
+3
+
+Output:
+Welcome 
+0 
+1 
+2 
+3 
+Thank you
+
 */
 
 //Solution:
