@@ -19,6 +19,14 @@ where n and r are two positive integers, space separated, n>=r
 Output Format:
 C(n,r) value for the input numbers
 
+Testcase
+
+Input:
+5 2
+
+Output:
+10
+
 */
 
 //Solution:

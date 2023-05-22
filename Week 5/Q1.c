@@ -18,6 +18,14 @@ X: A positive integer
 Output Format:
 Y: First Prime number after X
 
+Testcase
+
+Input:
+4
+
+Output:
+5
+
 */
 
 //Solution:

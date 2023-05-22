@@ -23,6 +23,14 @@ where n is a positive integer
 Output Format:
 Sequence of numbers separated by space
 
+Testcase
+
+Input:
+3
+
+Output:
+3 10 5 16 8 4 2 1
+
 */
 
 //Solution:

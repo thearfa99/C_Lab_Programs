@@ -20,6 +20,14 @@ Output Format:
 Message: “Perfect number” if the number is a perfect number
 Message: “Not a perfect number” if the the number is not a perfect number 
 
+Testcase
+
+Input:
+6
+
+Output:
+Perfect number
+
 */
 
 //Solution:
