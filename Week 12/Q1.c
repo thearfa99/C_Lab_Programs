@@ -42,28 +42,24 @@ int main() {
     printf("Enter the new file name to merge the two files: ");
     scanf("%s", file3_name);
 
-    // Open the first file in read mode
     file1 = fopen(file1_name, "r");
     if (file1 == NULL) {
         printf("Unable to open %s\n", file1_name);
         return 1;
     }
 
-    // Open the second file in read mode
     file2 = fopen(file2_name, "r");
     if (file2 == NULL) {
         printf("Unable to open %s\n", file2_name);
         return 1;
     }
 
-    // Open the third file in write mode
     file3 = fopen(file3_name, "w");
     if (file3 == NULL) {
         printf("Unable to create %s\n", file3_name);
         return 1;
     }
 
-    // Merge the contents of the first and second files into the third file
     while ((ch = fgetc(file1)) != EOF) {
         fputc(ch, file3);
     }
@@ -73,7 +69,6 @@ int main() {
 
     printf("The two files merged into %s successfully..!!\n", file3_name);
 
-    // Close all the files
     fclose(file1);
     fclose(file2);
     fclose(file3);
