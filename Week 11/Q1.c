@@ -1,5 +1,4 @@
 /*
-
 Ordered Singly Linked List
 
 Write a C program to create an ordered singly linked list (ascending order) and write functions to perform the following operations.
