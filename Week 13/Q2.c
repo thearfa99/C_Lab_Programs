@@ -66,14 +66,14 @@ struct Student {
     char name[MAX_LENGTH];
 };
 
-// Function to swap two student structures
+
 void swap(struct Student **a, struct Student **b) {
     struct Student *temp = *a;
     *a = *b;
     *b = temp;
 }
 
-// Function to perform insertion sort on students based on roll number
+
 void sortOnRoll(struct Student *arr[], int n) {
     int i, j;
     for (i = 1; i < n; i++) {
@@ -88,7 +88,7 @@ void sortOnRoll(struct Student *arr[], int n) {
     }
 }
 
-// Function to perform insertion sort on students based on name
+
 void sortOnName(struct Student *arr[], int n) {
     int i, j;
     for (i = 1; i < n; i++) {
@@ -103,7 +103,7 @@ void sortOnName(struct Student *arr[], int n) {
     }
 }
 
-// Function to print the array of students
+
 void printStudents(struct Student *arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d %s\n", arr[i]->roll, arr[i]->name);
@@ -155,7 +155,6 @@ int main() {
         }
     } while (option != 0);
 
-    // Free the memory allocated for each student structure
     for (int i = 0; i < count; i++) {
         free(students[i]);
     }
